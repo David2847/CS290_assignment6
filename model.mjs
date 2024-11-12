@@ -16,6 +16,8 @@ function createOrder(company, quantity){
 
 // Don't change anything above this line
 
+function displayModel() {
+    console.log(orders);
+}
 
-
-export {createOrder};
+export {createOrder, displayModel};
